@@ -25,3 +25,29 @@ A local-first AI companion exploring memory, voice, automation, and personal com
 
 </div>
 
+
+---
+
+## Explore Echo
+
+| System | Description |
+|---|---|
+| 👁 Echo Kernel | AI orchestration and personal computing layer |
+| 🧠 Memory Vault | Persistent knowledge and context systems |
+| 🎙 Voice Pipeline | Wake word, speech recognition, and TTS experiments |
+| 🖥 DriftWM | Custom Wayland compositor exploration |
+| 🔎 Private Search | Local knowledge retrieval |
+| 🐳 Infrastructure | Containerized supporting services |
+| 📱 Mobile | Companion interface experiments |
+
+---
+
+## Documentation
+
+- [Architecture](./docs/architecture.md)
+- [DriftWM](./docs/driftwm.md)
+- [Echo Kernel](./docs/system/echo-kernel.md)
+- [Memory Vault](./docs/system/memory-vault.md)
+- [Voice Pipeline](./docs/system/voice-pipeline.md)
+- [Public / Private Boundary](./docs/security/public-private-boundary.md)
+
