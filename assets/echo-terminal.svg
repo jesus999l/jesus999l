@@ -1,0 +1,71 @@
+<svg width="1000" height="300" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+  <radialGradient id="eye">
+    <stop offset="0%" stop-color="#9fffff"/>
+    <stop offset="45%" stop-color="#00ffaa"/>
+    <stop offset="100%" stop-color="#003344"/>
+  </radialGradient>
+
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="6"/>
+  </filter>
+</defs>
+
+<rect width="1000" height="300" fill="#050914"/>
+
+<!-- cyber grid -->
+<path d="M0 240 L1000 240 M0 180 L1000 180 M0 120 L1000 120"
+stroke="#00ffaa" opacity="0.15"/>
+
+<path d="M100 0 L100 300 M200 0 L200 300 M300 0 L300 300"
+stroke="#00ffff" opacity="0.08"/>
+
+<!-- halo -->
+<circle cx="500" cy="115" r="80"
+stroke="#00ffff"
+stroke-width="8"
+fill="none"
+opacity="0.6"/>
+
+<circle cx="500" cy="115" r="95"
+stroke="#00ffaa"
+stroke-width="20"
+fill="none"
+opacity="0.15"
+filter="url(#glow)"/>
+
+<!-- Echo eye -->
+<ellipse cx="500" cy="130" rx="90" ry="55"
+fill="url(#eye)"
+stroke="#00ffff"
+stroke-width="4"/>
+
+<circle cx="500" cy="130" r="25" fill="#001820"/>
+<circle cx="510" cy="120" r="8" fill="white"/>
+
+<!-- wings -->
+<path d="M410 130 Q330 70 300 150 Q350 130 410 160"
+fill="#00ffff"
+opacity="0.25"/>
+
+<path d="M590 130 Q670 70 700 150 Q650 130 590 160"
+fill="#00ffff"
+opacity="0.25"/>
+
+<!-- text -->
+<text x="60" y="260"
+fill="#00ffaa"
+font-family="monospace"
+font-size="28">
+ECHO // LOCAL-FIRST AI COMPANION
+</text>
+
+<text x="60" y="290"
+fill="#00ffff"
+font-family="monospace"
+font-size="16">
+memory • voice • automation • personal computing
+</text>
+
+</svg>

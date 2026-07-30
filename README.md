@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center">\n\n<img src="./assets/echo-terminal.svg" width="900"/>
 
 <img src="./assets/echo-eye.png" width="180"/>
 
