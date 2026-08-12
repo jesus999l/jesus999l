@@ -1,53 +1,89 @@
 <div align="center">
 
-<table>
-<tr>
-<td width="200">
-<img src="https://github.com/jesus999l.png" width="180"/>
-</td>
+<img src="./assets/echo-terminal.svg" width="900" alt="Echo terminal interface" />
 
-<td width="500">
+# Jesus999l / Echo Lab
 
-<img src="./assets/echo-terminal.svg" width="450"/>
+**Local-first AI • systems engineering • automation • perception • privacy**
 
-</td>
-</tr>
-</table>
-\n\n<img src="./assets/echo-terminal.svg" width="900"/>
-
-<img src="./assets/echo-eye.png" width="180"/>
-
-# Echo
-
-A local-first AI companion exploring memory, voice, automation, and personal computing.
-
-<img src="./assets/echo-cyber-background.webp" width="900"/>
+Building **Echo**, a local-first AI companion focused on memory, voice, desktop perception, automation, and long-lived personal computing.
 
 </div>
 
+---
+
+## `echo@local:~$ status`
+
+```text
+[ OK ] Echo research / orchestration
+[ OK ] Desktop perception experiments
+[ OK ] Wayland / DriftWM exploration
+[ OK ] Offline voice stack experiments
+[ OK ] Manhua research + preprocessing prototype
+[ OK ] Cloud-connected storage research
+[WIP ] Full perception → reasoning → automation loop
+```
+
+> The goal is not another chatbot. The goal is a private computing system that can observe, reason, remember, and eventually act — while keeping the important pieces local and auditable.
+
+## Featured work
+
+| Project | What it is | Status |
+|---|---|---|
+| **[Echo Vision](https://github.com/jesus999l/echo-vision)** | Perception and computer-vision experiments for Echo | Active |
+| **[LatentBox](https://github.com/jesus999l/latentbox)** | AI / creativity resource collection | Public |
+| **Echo** | Local-first assistant architecture, memory, voice, automation | Active / WIP |
+| **DriftWM** | Experimental Wayland compositor work | Experimental |
+
+## Current research tracks
+
+- **Perception:** structured desktop state, accessibility metadata, screenshots and visual fallback paths.
+- **Voice:** offline speech recognition and local text-to-speech experiments.
+- **Automation:** controlled task execution with explicit safety boundaries.
+- **Knowledge:** research pipelines, distillation, deduplication, and evidence-oriented notes.
+- **Media:** manga/manhwa acquisition research, OCR, panel processing, chapter assembly, and recap preprocessing.
+- **Infrastructure:** Docker, local services, object storage, and privacy-conscious cloud persistence.
+
+## Architecture notes
+
+- [Project map](./docs/projects.md)
+- [DriftWM notes](./docs/driftwm.md)
+- [Philosophy](./docs/philosophy.md)
+- [Security](./docs/security/)
+- [System documentation](./docs/system/)
+- [Design notes](./docs/design/)
+
+## `echo@local:~$ principles`
+
+```text
+local-first        → cloud is an extension, not the brain
+privacy             → minimize secrets and unnecessary telemetry
+auditable           → prefer inspectable pipelines over magic
+incremental         → prove primitives before connecting subsystems
+useful              → build things that survive contact with reality
+```
+
+## Public repositories
+
+- [echo-vision](https://github.com/jesus999l/echo-vision)
+- [latentbox](https://github.com/jesus999l/latentbox)
+- [profile / Echo Lab](https://github.com/jesus999l/jesus999l)
 
 ---
 
-## Explore Echo
+<div align="center">
 
-| System | Description |
-|---|---|
-| 👁 Echo Kernel | AI orchestration and personal computing layer |
-| 🧠 Memory Vault | Persistent knowledge and context systems |
-| 🎙 Voice Pipeline | Wake word, speech recognition, and TTS experiments |
-| 🖥 DriftWM | Custom Wayland compositor exploration |
-| 🔎 Private Search | Local knowledge retrieval |
-| 🐳 Infrastructure | Containerized supporting services |
-| 📱 Mobile | Companion interface experiments |
+```text
+┌──────────────────────────────────────────────────────────────┐
+│  echo@local                                                  │
+│  ├── perceive                                                │
+│  ├── remember                                                │
+│  ├── reason                                                  │
+│  ├── act                                                     │
+│  └── verify                                                  │
+│                                                              │
+│  BUILDING A COMPUTER, NOT JUST A CONVERSATION.               │
+└──────────────────────────────────────────────────────────────┘
+```
 
----
-
-## Documentation
-
-- [Architecture](./docs/architecture.md)
-- [DriftWM](./docs/driftwm.md)
-- [Echo Kernel](./docs/system/echo-kernel.md)
-- [Memory Vault](./docs/system/memory-vault.md)
-- [Voice Pipeline](./docs/system/voice-pipeline.md)
-- [Public / Private Boundary](./docs/security/public-private-boundary.md)
-
+</div>
