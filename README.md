@@ -10,6 +10,15 @@ Building **Echo**, a local-first AI companion focused on memory, voice, desktop 
 
 </div>
 
+<p align="center">
+  <a href="https://github.com/jeantimex/neofetch-profile">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://neofetch-profile.vercel.app/api?username=jesus999l&theme=github-dark&config=https%3A%2F%2Fraw.githubusercontent.com%2Fjesus999l%2Fjesus999l%2Fmain%2Fneofetch.json">
+      <img alt="GitHub neofetch profile" src="https://neofetch-profile.vercel.app/api?username=jesus999l&theme=github-light&config=https%3A%2F%2Fraw.githubusercontent.com%2Fjesus999l%2Fjesus999l%2Fmain%2Fneofetch.json">
+    </picture>
+  </a>
+</p>
+
 ---
 
 ## `echo@local:~$ status`
