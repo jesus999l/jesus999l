@@ -1,0 +1,33 @@
+{
+  "image": "https://github.com/jesus999l.png",
+  "removeBackground": true,
+  "imageScale": 0.75,
+  "sections": [
+    {
+      "title": "{{username}}@github",
+      "fields": [
+        {"key": "Name", "value": "{{name}}"},
+        {"key": "Focus", "value": "Local-first AI / systems"},
+        {"key": "Languages", "value": "{{languages}}"},
+        {"key": "Repos", "value": "{{repos}}"},
+        {"key": "Followers", "value": "{{followers}}"}
+      ]
+    },
+    {
+      "title": "- Echo Lab",
+      "fields": [
+        {"key": "Runtime", "value": "Linux / Python / Rust"},
+        {"key": "AI", "value": "Offline + local inference"},
+        {"key": "Research", "value": "Perception / automation / knowledge"}
+      ]
+    }
+  ],
+  "stats": {
+    "title": "- GitHub Stats",
+    "rows": [
+      {"left": {"key": "Repos", "value": "{{repos}}"}, "right": {"key": "Stars", "value": "{{stars}}"}},
+      {"left": {"key": "Commits", "value": "{{commits}}"}, "right": {"key": "Followers", "value": "{{followers}}"}},
+      "loc"
+    ]
+  }
+}
